@@ -1,0 +1,72 @@
+$bgcolor: #A66FA6;
+$bgcolor2: #530E53;
+$color: #609732;
+$aimh: 'aimh';
+$aimhsrc: url('../fonts/aimh.ttf');
+$ten: 10px;
+$headerwidth: 35%;
+$medium-font: 45px;
+$large-font: 55px;
+$extra-large-font: 65px;
+
+body{
+	background-color: $bgcolor !important;
+}
+
+@font-face{
+	font-family: $aimh;
+	src: $aimhsrc;
+}
+
+.main{
+	background-color: $bgcolor2;
+	color: $color;
+	font-family: $aimh;
+	padding: $ten;
+}
+
+.center{
+	text-align: center;
+}
+
+.headerlg{
+	font-size: $large-font;
+	border-bottom: 2px solid $color;
+	width: $headerwidth;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tomaha{
+	font-family: "Tomaha";
+}
+
+.helvetica{
+	font-family: Helvetica;
+}
+
+.arial{
+	font-family: Arial, sans-serif;
+}
+
+.timesnewroman{
+	font-family: "Times New Roman", serif;
+}
+
+.parlg{
+	font-size: 30px;
+}
+
+img{
+	float: left;
+	clear: right;
+}
+
+.large{
+	font-size: $medium-font;
+}
+
+.center-margin{
+	margin-left: 300px;
+	margin-right: auto;
+}

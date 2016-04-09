@@ -1,46 +1,49 @@
-body{
-	background-color: #A66FA6 !important;
-}
+body {
+  background-color: #A66FA6 !important; }
 
-@font-face{
-	font-family: 'aimh';
-	src: url('../fonts/aimh.ttf');
-}
+@font-face {
+  font-family: "aimh";
+  src: url("../fonts/aimh.ttf"); }
+.main {
+  background-color: #530E53;
+  color: #609732;
+  font-family: "aimh";
+  padding: 10px; }
 
-@font-face{
-	font-family: 'weddingbells';
-	src: url('../fonts/Mf Wedding Bells.ttf');
-}
+.center {
+  text-align: center; }
 
-.main{
-	background-color: #530E53;
-	color: #609732;
-	font-family: 'aimh';
-	padding: 10px;
-}
+.headerlg {
+  font-size: 55px;
+  border-bottom: 2px solid #609732;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto; }
 
-.center{
-	text-align: center;
-}
+.tomaha {
+  font-family: "Tomaha"; }
 
-.headerlg{
-	font-size: 55px;
-	border-bottom: 2px solid #609732;
-	width: 35%;
-	margin-left: auto;
-	margin-right: auto;
-}
+.helvetica {
+  font-family: Helvetica; }
 
-.parlg{
-	font-size: 25px;
-}
+.arial {
+  font-family: Arial, sans-serif; }
 
-img{
-	float: left;
-	clear: right;
-}
+.timesnewroman {
+  font-family: "Times New Roman", serif; }
 
-.right{
-	float: right;
-	clear: left;
-}
+.parlg {
+  font-size: 30px; }
+
+img {
+  float: left;
+  clear: right; }
+
+.large {
+  font-size: 45px; }
+
+.center-margin {
+  margin-left: 300px;
+  margin-right: auto; }
+
+/*# sourceMappingURL=styles.css.map */
