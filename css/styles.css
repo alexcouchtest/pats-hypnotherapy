@@ -1,0 +1,14 @@
+@font-face{
+	font-family: 'aimh';
+	src: url('../fonts/aimh.tff');
+}
+
+.main{
+	background-color: black;
+	color: azure;
+	font-family: 'aimh';
+}
+
+.center{
+	text-align: center;
+}
