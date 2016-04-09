@@ -1,14 +1,46 @@
+body{
+	background-color: #A66FA6 !important;
+}
+
 @font-face{
 	font-family: 'aimh';
-	src: url('../fonts/aimh.tff');
+	src: url('../fonts/aimh.ttf');
+}
+
+@font-face{
+	font-family: 'weddingbells';
+	src: url('../fonts/Mf Wedding Bells.ttf');
 }
 
 .main{
-	background-color: black;
-	color: azure;
+	background-color: #530E53;
+	color: #609732;
 	font-family: 'aimh';
+	padding: 10px;
 }
 
 .center{
 	text-align: center;
+}
+
+.headerlg{
+	font-size: 55px;
+	border-bottom: 2px solid #609732;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.parlg{
+	font-size: 25px;
+}
+
+img{
+	float: left;
+	clear: right;
+}
+
+.right{
+	float: right;
+	clear: left;
 }
