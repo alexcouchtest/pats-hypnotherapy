@@ -1,0 +1,14 @@
+@import 'styles';
+
+blockquote{
+	font-family: Arial, sans-serif;
+	display: block;
+	color: $color;
+}
+
+blockquote:before{
+	display: block;
+	content: "\201c";
+	font-size: 80px;
+	color: $color;
+}

@@ -5,8 +5,9 @@ $aimh: 'aimh';
 $aimhsrc: url('../fonts/aimh.ttf');
 $ten: 10px;
 $headerwidth: 35%;
-$medium-font: 45px;
-$large-font: 55px;
+$medium-font: 35px;
+$large-font: 45px;
+$xlarge-font: 55px;
 $extra-large-font: 65px;
 
 body{
@@ -21,7 +22,6 @@ body{
 .main{
 	background-color: $bgcolor2;
 	color: $color;
-	font-family: $aimh;
 	padding: $ten;
 }
 
@@ -35,38 +35,57 @@ body{
 	width: $headerwidth;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: $aimh;
 }
 
-.tomaha{
-	font-family: "Tomaha";
-}
-
-.helvetica{
-	font-family: Helvetica;
-}
-
-.arial{
-	font-family: Arial, sans-serif;
-}
-
-.timesnewroman{
-	font-family: "Times New Roman", serif;
-}
-
-.parlg{
-	font-size: 30px;
+p{
+	font-family: Arial;
 }
 
 img{
 	float: left;
 	clear: right;
+	margin-top: $ten*1.5;
+	margin-right: $ten*1.5;
+}
+
+.parlg{
+	font-size: $ten*3;
 }
 
 .large{
+	font-size: $large-font;
+}
+
+.medium{
 	font-size: $medium-font;
 }
 
-.center-margin{
-	margin-left: 300px;
-	margin-right: auto;
+.headerdiv{
+	border-bottom: 1px solid $color;
+}
+
+.navbar{
+	font-family: $aimh;
+	font-size: $medium-font;
+	text-align: center;
+	ul{
+		list-style-type: none;
+	}
+
+	li{
+		display: inline;
+	}
+	a{
+		color: $color*1.45;
+		text-decoration: none
+	}
+	a:hover, a:visited, a:focus, a:active{
+		color: $color*2;
+		text-decoration: none;
+	}
+}
+
+.whitespace{
+	margin-bottom: 100px;
 }
