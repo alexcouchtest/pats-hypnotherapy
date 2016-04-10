@@ -56,18 +56,31 @@ img {
     color: #c0ff64;
     text-decoration: none; }
 
-.whitespace {
-  margin-bottom: 100px; }
+.quote {
+  margin-left: auto;
+  margin-right: auto; }
 
 blockquote {
   font-family: Arial, sans-serif;
   display: block;
-  color: #609732; }
+  color: #609732;
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0 auto;
+  line-height: 1.45;
+  position: relative; }
 
 blockquote:before {
   display: block;
   content: "\201c";
   font-size: 80px;
-  color: #609732; }
+  color: #999;
+  position: absolute;
+  left: -20px;
+  top: -20px; }
+
+blockquote[cite] {
+  color: #999; }
 
 /*# sourceMappingURL=hypno.css.map */

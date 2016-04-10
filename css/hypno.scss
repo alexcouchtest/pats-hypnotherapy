@@ -1,14 +1,34 @@
 @import 'styles';
 
+$quotecolor: #999;
+
+.quote{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 blockquote{
 	font-family: Arial, sans-serif;
 	display: block;
 	color: $color;
+	font-size: 18px;
+	font-style: italic;
+	width: 500px;
+	margin: 0 auto;
+	line-height: 1.45;
+	position: relative;
 }
 
 blockquote:before{
 	display: block;
 	content: "\201c";
 	font-size: 80px;
-	color: $color;
+	color: $quotecolor;
+	position: absolute;
+	left: -$ten*2;
+	top: -$ten*2;
+}
+
+blockquote[cite]{
+	color: #999;
 }
