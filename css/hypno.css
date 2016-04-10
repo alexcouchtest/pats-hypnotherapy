@@ -59,4 +59,15 @@ img {
 .whitespace {
   margin-bottom: 100px; }
 
-/*# sourceMappingURL=styles.css.map */
+blockquote {
+  font-family: Arial, sans-serif;
+  display: block;
+  color: #609732; }
+
+blockquote:before {
+  display: block;
+  content: "\201c";
+  font-size: 80px;
+  color: #609732; }
+
+/*# sourceMappingURL=hypno.css.map */
