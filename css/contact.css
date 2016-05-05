@@ -1,0 +1,13 @@
+.contact{
+	text-align: center;
+}
+
+a, a:active, a:visited, a:focus{
+	color: #8bdb49;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #c0ff64;
+	text-decoration: none;
+}
