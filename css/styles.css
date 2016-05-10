@@ -59,4 +59,13 @@ img {
 .whitespace {
   margin-bottom: 100px; }
 
+.where-am-i{
+  text-align: center;
+}
+
+.where-am-i-map{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */
