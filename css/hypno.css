@@ -68,4 +68,10 @@ img {
   font-size: 50px;
 }
 
+ul li{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 /*# sourceMappingURL=hypno.css.map */
