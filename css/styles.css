@@ -50,10 +50,10 @@ img {
   .navbar li {
     display: inline; }
   .navbar a {
-    color: #8bdb49;
+    color: #56008C;
     text-decoration: none; }
   .navbar a:hover, .navbar a:visited, .navbar a:focus, .navbar a:active {
-    color: #c0ff64;
+    color: #9A28E0;
     text-decoration: none; }
 
 .whitespace {
