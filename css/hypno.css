@@ -75,7 +75,8 @@ img {
 ul li{
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=hypno.css.map */
