@@ -37,6 +37,10 @@ img {
 
 .medium {
   font-size: 35px; }
+  
+.small{
+  font-size: 25px;
+}
 
 .headerdiv {
   border-bottom: 1px solid #609732; }
