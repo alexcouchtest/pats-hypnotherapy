@@ -39,7 +39,9 @@ img {
   font-size: 35px; }
 
 .headerdiv {
-  border-bottom: 1px solid #750EB5; }
+  border-bottom: 1px solid #750EB5; 
+  margin-bottom: 10px;
+}
 
 .navbar {
   font-family: "aimh";
