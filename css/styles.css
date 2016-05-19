@@ -5,8 +5,8 @@ body {
   font-family: "aimh";
   src: url("../fonts/aimh.ttf"); }
 .main {
-  background-color: #D99CFF;
-  color: #000;
+  background-color: #530E53;
+  color: #609732;
   padding: 10px; }
 
 .center {
@@ -14,7 +14,7 @@ body {
 
 .headerlg {
   font-size: 45px;
-  border-bottom: 2px solid #750EB5;
+  border-bottom: 2px solid #609732;
   width: 35%;
   margin-left: auto;
   margin-right: auto;
@@ -39,9 +39,7 @@ img {
   font-size: 35px; }
 
 .headerdiv {
-  border-bottom: 1px solid #750EB5; 
-  margin-bottom: 10px;
-}
+  border-bottom: 1px solid #609732; }
 
 .navbar {
   font-family: "aimh";
@@ -52,10 +50,10 @@ img {
   .navbar li {
     display: inline; }
   .navbar a {
-    color: #56008C;
+    color: #8bdb49;
     text-decoration: none; }
   .navbar a:hover, .navbar a:visited, .navbar a:focus, .navbar a:active {
-    color: #9A28E0;
+    color: #c0ff64;
     text-decoration: none; }
 
 .whitespace {
@@ -68,6 +66,11 @@ img {
 .where-am-i-map{
   margin-left: auto;
   margin-right: auto;
+}
+
+.footer{
+  text-align: center;
+  position: fixed;
 }
 
 /*# sourceMappingURL=styles.css.map */
