@@ -92,4 +92,9 @@ img {
   font-size: 20px;
 }
 
+.center-margin{
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */
