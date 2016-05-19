@@ -37,10 +37,6 @@ img {
 
 .medium {
   font-size: 35px; }
-  
-.small{
-  font-size: 30px;
-}
 
 .headerdiv {
   border-bottom: 1px solid #609732; }
@@ -70,13 +66,6 @@ img {
 
 .quote{
   font-size: 50px;
-}
-
-ul li{
-  margin-left: auto;
-  margin-right: auto;
-  text-decoration: none;
-  list-style-type: none;
 }
 
 /*# sourceMappingURL=hypno.css.map */
