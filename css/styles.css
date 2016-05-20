@@ -5,16 +5,18 @@ body {
   font-family: "aimh";
   src: url("../fonts/aimh.ttf"); }
 .main {
-  background-color: #530E53;
-  color: #609732;
-  padding: 10px; }
+  background-color: #D99CFF;
+  color: #000;
+  padding: 10px;
+  border-bottom: 1px solid #750EB5;
+  margin-bottom: 10px; }
 
 .center {
   text-align: center; }
 
 .headerlg {
   font-size: 45px;
-  border-bottom: 2px solid #609732;
+  border-bottom: 2px solid #750EB5;
   width: 35%;
   margin-left: auto;
   margin-right: auto;
@@ -38,8 +40,14 @@ img {
 .medium {
   font-size: 35px; }
 
+.small{
+  font-size: 30px;
+}
+
 .headerdiv {
-  border-bottom: 1px solid #609732; }
+  border-bottom: 1px solid #750EB5;
+  margin-bottom: 25px;
+ }
 
 .navbar {
   font-family: "aimh";
@@ -49,11 +57,11 @@ img {
     list-style-type: none; }
   .navbar li {
     display: inline; }
-  .navbar a {
-    color: #8bdb49;
+  .navbar a, .navbar a:visited, .navbar a:focus, .navbar a:active {
+    color: #56008C;
     text-decoration: none; }
-  .navbar a:hover, .navbar a:visited, .navbar a:focus, .navbar a:active {
-    color: #c0ff64;
+  .navbar a:hover {
+    color: #9A28E0;
     text-decoration: none; }
 
 .whitespace {
@@ -61,11 +69,32 @@ img {
 
 .where-am-i{
   text-align: center;
+
 }
 
 .where-am-i-map{
   margin-left: auto;
   margin-right: auto;
+
+}
+
+.footer{
+  text-align: center;
+}
+
+.list{
+  font-size: 20px;
+}
+
+.list > ul li{
+  list-style-type: none;
+  display: block;
+  font-size: 20px;
+}
+
+.center-margin{
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
