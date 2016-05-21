@@ -97,4 +97,12 @@ img {
   margin-left: auto;
 }
 
+.headerxl{
+  font-size: 45px;
+}
+
+.header-large{
+  border-bottom: 5px solid #750EB5;
+}
+
 /*# sourceMappingURL=styles.css.map */
